@@ -9,7 +9,7 @@ import Name from "../assets/images/IP.png";
 import Ema from "../assets/images/Email.png";
 import Phone from "../assets/images/Phone.png";
 import Place from "../assets/images/Tendant.png";
-import Robin from "../assets/images/acountLogo.png";
+import accountLogo from "../assets/images/acountLogo.png";
 import Ad from "../assets/images/Lock.jpg";
 import G from "../assets/images/Gender.png";
 import Password from "../assets/images/Pass.png";
@@ -184,7 +184,10 @@ export default function Profile(props) {
                     </Col>
                     <Col className=" d-flex flex-column gap-3 px-3 me-2" sm={4}>
                         <div>
-                            <Image className="w-100 rounded pt-4" src={robin} />
+                            <Image
+                                className="w-100 rounded pt-4"
+                                src={accountLogo}
+                            />
                         </div>
                         <div>
                             <Button className="w-100">
